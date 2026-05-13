@@ -10,7 +10,7 @@ public class SharedFile {
 	private final String owner;
 	private BufferedImage canvas;
 	private final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
-	private static final String SAVE_DIR = "sunucu_kayitlar";
+	private static final String SAVE_DIR = "server_records";
 
 	public SharedFile(String name, String owner, BufferedImage initial) {
 		this.name = name;
